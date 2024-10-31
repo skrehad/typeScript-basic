@@ -1,3 +1,4 @@
+{
 // Basic of Data Type
 
 // Number
@@ -25,3 +26,4 @@ const friendsRoll:number[]=[1,3,5,4,2]
 const friendsAge : [number,string]=[10,'rehad']
 const friendsAge2: [number,boolean]=[10,true]
 const friendsTuple : [number,string,boolean]=[10,'rehad',true]
+}

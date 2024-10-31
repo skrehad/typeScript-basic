@@ -1,4 +1,4 @@
-// Object Types 
+{// Object Types 
 
 const user:{
 //    readonly company: string;
@@ -13,4 +13,4 @@ const user:{
     // middleName:'Islam',
     lastName:'Rehad',
     isMarried:false
-}
+}}
