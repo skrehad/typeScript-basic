@@ -9,7 +9,8 @@
   },
   "include": [
     "Module1/src/**/*", 
-    "Module2/src/**/*"
+    "Module2/src/**/*",
+    "Module3/src/**/*"
   ],
   "exclude": [
     "node_modules",
