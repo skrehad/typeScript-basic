@@ -1,1 +1,0 @@
-// generic with object and array
