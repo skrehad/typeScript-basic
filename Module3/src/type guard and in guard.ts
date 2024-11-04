@@ -2,6 +2,7 @@
 
 
 
+console.log(getProperty(person, "name"));
 
 
 // In Guard
