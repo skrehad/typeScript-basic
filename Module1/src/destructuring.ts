@@ -13,7 +13,7 @@ const user = {
   
   const {
     contactNo,
-    name: { middleName: midName },
+    name: { middleName },
   } = user;
   
   // array destructuring
