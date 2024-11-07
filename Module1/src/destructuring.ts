@@ -20,4 +20,4 @@ const user = {
   
   const myFriends = ["chandler", "joey", "ross", "rachel", "monica", "phoebe"];
   
-  const [, , bestFriend, ...rest] = myFriends;
+  const [, , bestFriend, ...rest] = myFriends; // , , for skip first 2 value
