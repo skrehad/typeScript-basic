@@ -21,7 +21,7 @@
     };
   
     const result1 = kgToGm(100) as number;
-    const result2 = kgToGm("10");
+    const result2 = kgToGm("10") as string
 
     console.log(result2)
   
