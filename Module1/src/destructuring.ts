@@ -3,9 +3,9 @@
 const user = {
     id: 345,
     name: {
-      firstName: "Mezbaul",
-      middleName: "Abedin",
-      lastName: "Persian",
+      firstName: "Saiful",
+      middleName: "Islam",
+      lastName: "Rehad",
     },
     contactNo: "0170000000",
     address: "Uganda",
