@@ -2,7 +2,7 @@
 
 
 
-console.log(getProperty(person, "name"));
+// console.log(getProperty(person, "name"));
 
 
 // In Guard
