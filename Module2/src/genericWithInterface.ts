@@ -18,11 +18,10 @@ const information:developer<{
                 price:2000
                }
 }
-const information2:developer<{
-    name:string,
-    price:number
-    isAlarm:boolean
-}>={
+
+interface AppleWatch{name:string,price:number,isAlarm:boolean}
+// const information2:developer<{name:string,price:number,isAlarm:boolean}>={
+const information2:developer<AppleWatch>={ 
     name:"rehad",
     roll:22,
     isActive:true,
