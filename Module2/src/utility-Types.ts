@@ -93,8 +93,10 @@
     // 8. Extract
     // Extract<T, U> একটি টাইপ তৈরি করে, যেটি T এবং U টাইপের যে উপাদানগুলো মিল আছে, কেবলমাত্র সেগুলোই রাখে।    
     type Fruit2 = 'apple' | 'banana' | 'cherry';
-    type Citrus = 'orange' | 'lemon';
-    
-    type Extracted = Extract<Fruit2, Citrus>;    
+    type Citrus = 'orange' | 'lemon' | 'banana';
+
+    type Extracted = Fruit2 & Citrus; 
+
     const citrus: Extracted = 'banana'; 
+
   }
