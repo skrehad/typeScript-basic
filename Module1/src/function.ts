@@ -1,7 +1,7 @@
 {
-//   //Learning function
-//   // Normal Function
-//   // Arrow Function
+  //   //Learning function
+  //   // Normal Function
+  //   // Arrow Function
 
   function add(num1: number, num2: number = 10): number {
     return num1 + num2;

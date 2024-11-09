@@ -1,5 +1,5 @@
 function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
-    return obj[key];
+  return obj[key];
 }
 
 // getProperty function-এ আমরা দুটি generic টাইপ T এবং K ব্যবহার করেছি।
@@ -8,19 +8,16 @@ function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
 // T[K] মানে হলো সেই কী (key) এর সাথে সম্পর্কিত মানের টাইপ।
 
 const developer = {
-    name: 'Rehad',
-    id: 1,
-    skills: 'TypeScript'
+  name: "Rehad",
+  id: 1,
+  skills: "TypeScript",
 };
 
 // ঠিক আছে, কারণ 'name' হল developer অবজেক্টের একটি বৈধ প্রপার্টি কী
-console.log(getProperty(developer, 'name')); // Output: 'Rehad'
+console.log(getProperty(developer, "name")); // Output: 'Rehad'
 
 // ঠিক আছে, কারণ 'id' developer অবজেক্টের একটি বৈধ প্রপার্টি কী
-console.log(getProperty(developer, 'id')); // Output: 1
+console.log(getProperty(developer, "id")); // Output: 1
 
 // ভুল হবে, কারণ 'age' প্রপার্টি developer অবজেক্টে নেই
 // console.log(getProperty(developer, 'age')); // TypeScript error
-
-
-
