@@ -5,5 +5,5 @@ function getFirstElement<T>(arr: T[]): T {
 const numbers = [10, 20, 30];
 const strings = ["apple", "banana", "cherry"];
 
-//   console.log(getFirstElement(numbers)); // 10
-console.log(getFirstElement(strings)); // "apple"
+console.log(getFirstElement(numbers));
+console.log(getFirstElement(strings));
